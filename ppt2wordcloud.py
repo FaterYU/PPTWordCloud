@@ -1,4 +1,3 @@
-import imp
 import WChead
 # import wordcloud
 import matplotlib.pyplot as plt
@@ -14,7 +13,6 @@ if __name__ == '__main__':
 
     path = sys.path[0]
     print(path)
-
     for filename in os.listdir(path):
         if bool(filename.find(".pptx")+1):
             # print(filename)
